@@ -1,0 +1,72 @@
+Created by ALPEREN on 18.08.2021
+
+This is a concept file with following syntax for each concept.
+
+ #Giriş yap butonuna tıklanır
+ *"span[title='Giriş Yap']" css li elemente tıkla
+ *"a[id='login']" css li elemente tıkla
+ #Kullanıcı bilgileri girilir
+ *"input[id='txtUserName']" css'li yere "kutluhan.das@gmail.com" yazısını yaz
+ *"input[id='txtPassword']" css'li yere "123456789Hep" yazısını yaz
+ *"button[id='btnLogin']" css li elemente tıkla
+ #Kullanıcı, ürün için arama yapar
+ *"input[class='desktopOldAutosuggestTheme-input']" css'li yere "samsung" yazısını yaz
+ *"3" saniye kadar bekle!
+ *"div[class='SearchBoxOld-buttonContainer']" css li elemente tıkla
+ #Kullanıcı, ürün listesinden ürünü seçer
+ *"p[class='hb-pl-cn']" css'li elementler arasından ikinci butona tıkla
+ #Seçilen ürün iki tane farklı satıcıdan ürün seçilip sepete eklenir
+ *"a[class='optionsLength']" css li elemente tıkla
+ *"button[class='add-to-basket button']" css'li elementler arasından ilk butona tıkla
+  *"2" saniye kadar bekle!
+ *"i[class='close']" css li elemente tıkla
+ *"1" saniye kadar bekle!
+ *"a[class='checkoutui-Modal-2iZXl']" css li elemente tıkla
+ *"3" saniye kadar bekle!
+ *"button[class='add-to-basket button']" css'li elementler arasından ikinci butona tıkla
+ *"1" saniye kadar bekle!
+ *"i[class='close']" css li elemente tıkla
+ *"1" saniye kadar bekle!
+ *"a[class='checkoutui-Modal-2iZXl']" css li elemente tıkla
+  *"1" saniye kadar bekle!
+ *"span[id='shoppingCart']" css li elemente tıkla
+
+
+ #Kullanıcı Kitap, Müzik, Film, Hobi kategorisini seçer
+ *"li[class='sf-MenuItems-1-U3X']" css'li elementler arasından Kitap kategorisi için sekizinci butona tıkla
+  *"3" saniye kadar bekle!
+ #Kullanıcı uzaktan kumandalı araçlar sekmesini açar
+ *"a[href='https://www.hepsiburada.com/uzaktan-kumandali-arabalar-c-14001244']" css li elemente tıkla
+  *"3" saniye kadar bekle!
+ #Drone yedek parçaları seçilir
+ *"div[class='content-contentRoot content-child content-vertical']" css'li elementler arasından Kitap kategorisi için sekizinci butona tıkla
+  *"3" saniye kadar bekle!
+ #Kullanıcı random ürünü seçer
+ *"li[class='productListContainer-item']" css'li elementler arasından random tıkla
+  *"3" saniye kadar bekle!
+ #Kullanıcı ürünü sepete ekler
+ *"button[class='button big with-icon']" css li elemente tıkla
+
+ #Ürün sepete eklenir
+ *"button[class='button big with-icon']" css li elemente tıkla
+ *"3" saniye kadar bekle!
+ *"a[class='checkoutui-Modal-2iZXl']" css li elemente tıkla
+ *"3" saniye kadar bekle!
+ #Satıcının sayfasına gidilir
+ *"a[class='optionsLength']" css li elemente tıkla
+ *"3" saniye kadar bekle!
+ *"a[class='merchant-name small']" css'li elementler arasından ilk butona tıkla
+ *"3" saniye kadar bekle!
+ #Satıcının sayfasından başka bir ürün seçilir
+ *"p[class='hb-pl-cn']" css'li elementler arasından ilk butona tıkla
+ *"3" saniye kadar bekle!
+ #Sepete gidilir
+ *"span[id='shoppingCart']" css li elemente tıkla
+ *"3" saniye kadar bekle!
+ #Alışverişi tamamla'ya tıklanır
+ *"button[id='continue_step_btn']" css li elemente tıkla
+ *"3" saniye kadar bekle!
+
+
+
+

@@ -1,0 +1,56 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1223milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1223"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59519"}
+{"logLevel":"info","message":"Listening on port:59519"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.secondproduct' and 'org.example.StepImplementation.secondproduct'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından ikinci ürünü seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.SendKeys' and 'org.example.StepImplementation.SendKeys'"}
+{"logLevel":"debug","message":"Found Write {} keys to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.drone' and 'org.example.StepImplementation.drone'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından drone yedek parça kısmına tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitImplementation' and 'org.example.StepImplementation.waitImplementation'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle! in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.Delay' and 'org.example.StepImplementation.Delay'"}
+{"logLevel":"debug","message":"Found {} second(s) wait in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.XPathClick' and 'org.example.StepImplementation.XPathClick'"}
+{"logLevel":"debug","message":"Found Click to Xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.Click' and 'org.example.StepImplementation.Click'"}
+{"logLevel":"debug","message":"Found {} css li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.book' and 'org.example.StepImplementation.book'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından Kitap kısmına tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.Hover' and 'org.example.StepImplementation.Hover'"}
+{"logLevel":"debug","message":"Found Hover to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.firstproduct' and 'org.example.StepImplementation.firstproduct'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından ilk ürünü seç in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tHover to {} : public void Hover(String element)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından Kitap kısmına tıkla : public void book(String css)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından ikinci ürünü seç : public void secondproduct(String css)"}
+{"logLevel":"debug","message":"\t{} second(s) wait : public void Delay(ınt second)"}
+{"logLevel":"debug","message":"\t{} css li elemente tıkla : public void Click(String css)"}
+{"logLevel":"debug","message":"\tClick to Xpath {} : public void XPathClick(String element)"}
+{"logLevel":"debug","message":"\tWrite {} keys to {} : public void SendKeys(String text, String element)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından ilk ürünü seç : public void firstproduct(String css)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle! : public void waitImplementation(ınt saniye) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından drone yedek parça kısmına tıkla : public void drone(String css)"}
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 46021
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 19, 2021 2:42:42 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} css'li elementler arasından Kitap kısmına tıkla' using 'class org.example.StepImplementation.book"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.Click"}
+{"logLevel":"debug","message":"Executing '{} css'li elementler arasından drone yedek parça kısmına tıkla' using 'class org.example.StepImplementation.drone"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

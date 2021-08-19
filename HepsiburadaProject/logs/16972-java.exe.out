@@ -1,0 +1,68 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1259milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1259"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62669"}
+{"logLevel":"info","message":"Listening on port:62669"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.click' and 'org.example.StepImplementation.click'"}
+{"logLevel":"debug","message":"Found {} css li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitImplementation' and 'org.example.StepImplementation.waitImplementation'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle! in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.eighthButtonForBookCategory' and 'org.example.StepImplementation.eighthButtonForBookCategory'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından Kitap kategorisi için sekizinci butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.firstButton' and 'org.example.StepImplementation.firstButton'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından ilk butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeys' and 'org.example.StepImplementation.sendKeys'"}
+{"logLevel":"debug","message":"Found {} css'li yere {} yazısını yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.secondButton' and 'org.example.StepImplementation.secondButton'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından ikinci butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} css li elemente tıkla : public void click(String css)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından ikinci butona tıkla : public void secondButton(String css)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından ilk butona tıkla : public void firstButton(String css)"}
+{"logLevel":"debug","message":"\t{} css'li yere {} yazısını yaz : public void sendKeys(String css, String text)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından Kitap kategorisi için sekizinci butona tıkla : public void eighthButtonForBookCategory(String css)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle! : public void waitImplementation(ınt second) throws InterruptedException"}
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32208
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 19, 2021 3:58:23 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} css'li yere {} yazısını yaz' using 'class org.example.StepImplementation.sendKeys"}
+{"logLevel":"debug","message":"Executing '{} css'li yere {} yazısını yaz' using 'class org.example.StepImplementation.sendKeys"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css'li yere {} yazısını yaz' using 'class org.example.StepImplementation.sendKeys"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css'li elementler arasından ilk butona tıkla' using 'class org.example.StepImplementation.firstButton"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} css'li elementler arasından ilk butona tıkla' using 'class org.example.StepImplementation.firstButton"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css'li elementler arasından ikinci butona tıkla' using 'class org.example.StepImplementation.secondButton"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Executing '{} css li elemente tıkla' using 'class org.example.StepImplementation.click"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle!' using 'class org.example.StepImplementation.waitImplementation"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

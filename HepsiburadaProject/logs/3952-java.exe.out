@@ -1,0 +1,40 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1180milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1180"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51605"}
+{"logLevel":"info","message":"Listening on port:51605"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.SendKeys' and 'org.example.StepImplementation.SendKeys'"}
+{"logLevel":"debug","message":"Found Write {} keys to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.Delay' and 'org.example.StepImplementation.Delay'"}
+{"logLevel":"debug","message":"Found {} second(s) wait in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.XPathClick' and 'org.example.StepImplementation.XPathClick'"}
+{"logLevel":"debug","message":"Found Click to Xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.Click' and 'org.example.StepImplementation.Click'"}
+{"logLevel":"debug","message":"Found Click to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.Hover' and 'org.example.StepImplementation.Hover'"}
+{"logLevel":"debug","message":"Found Hover to {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tHover to {} : public void Hover(String element)"}
+{"logLevel":"debug","message":"\t{} second(s) wait : public void Delay(ınt second)"}
+{"logLevel":"debug","message":"\tClick to {} : public void Click(String element)"}
+{"logLevel":"debug","message":"\tClick to Xpath {} : public void XPathClick(String element)"}
+{"logLevel":"debug","message":"\tWrite {} keys to {} : public void SendKeys(String text, String element)"}
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 39374
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Ağu 18, 2021 5:29:51 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} second(s) wait' using 'class org.example.StepImplementation.Delay"}
+{"logLevel":"debug","message":"Executing 'Hover to {}' using 'class org.example.StepImplementation.Hover"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
